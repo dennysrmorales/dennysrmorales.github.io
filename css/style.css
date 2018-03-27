@@ -2,8 +2,6 @@
 @import url(font-awesome.min.css);
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600";
 
-
-
 body, input, select, textarea {
 	color: #9a9a9a;
 	font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
@@ -39,8 +37,6 @@ body, input, select, textarea {
 	width: 50%;
 }
 
-/* Icon */
-
 .icon {
 	text-decoration: none;
 	border-bottom: none;
@@ -59,8 +55,6 @@ body, input, select, textarea {
 .icon > .label {
 	display: none;
 }
-
-/* Image */
 
 .image {
 	border-radius: 0;
@@ -118,14 +112,12 @@ body, input, select, textarea {
 	width: 100%;
 }
 
-/* Header */
-
 .subpage {
 		padding-top: 44px;
 	}
 
 .subpage #header {
-	background: #6cc091; /*#00B2EE  */
+	background: #6cc091;
 	top: 0;
 	position: fixed;
 }
@@ -201,12 +193,6 @@ body, input, select, textarea {
 #header a.navPanelToggle .fa {
 	font-size: 1.25em;
 }
-
-
-
-
-
-/* Banner */
 
 #banner {
 	padding: 8em 0 9em 0;
@@ -330,8 +316,6 @@ body, input, select, textarea {
 		}
 
 }
-
-
 
 #morales{
 	border-radius: 100%;
