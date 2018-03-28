@@ -1,0 +1,47 @@
+div#memory_board{
+	background:#555 ;
+	border:#999 1px solid;
+	border-radius: 25px;
+	width:800px;
+	height:540px;
+	padding:24px;
+	margin:0px auto;
+}
+div#memory_board > div{
+	background-size: cover;
+	border:#000 1px solid;
+	border-radius: 10px;
+	width:71px;
+	height:71px;
+	float:left;
+	margin:10px;
+	padding:20px;
+	font-size:64px;
+	cursor:pointer;
+	text-align:center;
+}
+
+h1{
+	color: #555;
+	font-family: Arial, Helvetica, sans-sarif;
+	text-align: center;
+	font-size: 30px;
+	line-height: 1em;
+	margin: 0;
+}
+
+h2{
+	color: #555;
+	text-align: center;
+}
+
+#rankings {
+	color: #555;
+	text-align: center;
+
+}
+
+#rankings li{
+	list-style: none;
+
+}

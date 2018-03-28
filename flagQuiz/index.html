@@ -1,0 +1,75 @@
+<html>
+<head>
+	<title>Flag Quiz</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body onload="showQuestion()">
+	
+	<header id="main-header">
+		<div class="container">
+			<h1 id="h1">Flag Quiz</h1>
+		</div>
+	</header>
+
+	<section id="wholeQuiz">
+		<div id="content">
+	  		<img id="image" src="" alt="" />
+		</div>
+
+		<div id="quiz" class="play">
+			<div class="opt">
+				<div class="section">
+				</div>
+				<div class="section">
+					<h3>Elapsed time</h3>
+					<div><span id="time" class="watch">0</span>s</div>
+				</div>
+				<div class="section last">
+					<h3>Repeat</h3>
+					<input type="radio" onclick="startNewGame()" id="startNewGame">
+					<label for="startNewGame" id="startNewGameLabel" >start new game</label><br>
+				</div>
+			</div>
+		</div>
+
+		<div id="options"> 
+			<h3 id="questionHeader">What country corresponds to the flag above?</h3>
+			<div id="questionNumber" class="num"></div>
+
+			<strong>a) </strong>
+					<input type="radio" name="choice" value="0" onclick="nextQuestion()" id="choice1">
+			<label for="choice1" id="answ1"></label><br>
+
+			<strong>b) </strong>
+					<input type="radio" name="choice" value="1" onclick="nextQuestion()" id="choice2">
+			<label for="choice2" id="answ2"></label><br>
+
+			<strong>c) </strong>
+			<input type="radio" name="choice" value="2" onclick="nextQuestion()" id="choice3">
+			<label for="choice3" id="answ3"></label>
+			<br>
+			
+			<strong>d) </strong>
+			<input type="radio" name="choice" value="3" onclick="nextQuestion()" id="choice4">
+			<label for="choice4" id="answ4"></label>
+			<br>
+
+		</div>
+	</section>
+
+	<section id="answers">
+		<div id="results"></div>
+		
+		<div id="restart" class="section last">
+			<input type="radio" onclick="startNewGame()" id="startNewGame">
+			<label for="startNewGame" id="startNewGameLabel" >Start New Game</label><br>
+		</div>
+	</section>
+
+	<footer id="main-footer">
+		<p>Copyright &copy; 2018 Morales</p>
+	</footer>
+	<script src="js/main.js"></script>
+
+</body>
+</html>
