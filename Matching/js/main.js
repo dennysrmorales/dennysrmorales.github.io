@@ -29,13 +29,6 @@ var memory_tile_ids = [];
 var tiles_flipped = 0;
 var clicks = 0;
 
-
-document.getElementById('leader_1').innerHTML = "1: " + localStorage.getItem('leader_1');
-document.getElementById('leader_2').innerHTML = "2: " + localStorage.getItem('leader_2');
-document.getElementById('leader_3').innerHTML = "3: " + localStorage.getItem('leader_3');
-document.getElementById('leader_4').innerHTML = "4: " + localStorage.getItem('leader_4');
-document.getElementById('leader_5').innerHTML = "5: " + localStorage.getItem('leader_5');
-
 Array.prototype.memory_tile_shuffle = function(){
     var i = this.length, j, temp;
     while(--i > 0){
