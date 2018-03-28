@@ -88,10 +88,7 @@ function newBoard(){
 }
 
 function winner(){
-	clearTimeout(t);
-	changeLeaderboard(h2.textContent.substring(3,8));
 	alert("YOU WON!!!! You finished in " + h2.textContent.substring(3,8) + " with "+clicks+" flips ... generating new board");
-	
 	clicks = 0;
 	clearboard()
 	document.getElementById('memory_board').innerHTML = "";
