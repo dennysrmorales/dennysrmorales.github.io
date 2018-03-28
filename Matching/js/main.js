@@ -88,7 +88,6 @@ function newBoard(){
 }
 
 function winner(){
-	console.log("test")
 	alert("YOU WON!!!! You finished in " + h2.textContent.substring(3,8) + " with "+clicks+" flips ... generating new board");
 	clicks = 0;
 	clearboard()
