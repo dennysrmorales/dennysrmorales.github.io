@@ -392,7 +392,7 @@ h2 {
 	padding: 0 20px 20px 0;
 }
 
-#containerOne, #containerTwo, #containerThree{
+#containerOne, #containerTwo, #containerThree, #containerFour{
 	margin-bottom: 100px
 }
 
@@ -401,7 +401,7 @@ h2 {
 	text-align: center;
 }
 
-#containerOne img, #containerTwo img, #containerThree img{
+#containerOne img, #containerTwo img, #containerThree img, #containerFour img{
 	width: 300px;
 }
 
